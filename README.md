@@ -96,7 +96,7 @@ The dataset used for this project contains the following columns:
    - Trained a `LogisticRegression` model due to the small dataset size:
      ```python
      from sklearn.linear_model import LogisticRegression
-     model = LogisticRegression(max_iter=10000)
+     model = LogisticRegression(max_iter=500)
      model.fit(X_train, y_train)
      ```
 
